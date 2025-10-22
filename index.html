@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✨ Frosty Grammar Challenge — Agreement, Pronouns & Adjectives!</title>
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #dff6ff, #cde8f5);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #ffffffcc;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  color: #0b5394;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.question {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f3f9ff;
+  border-radius: 10px;
+  border-left: 5px solid #0b5394;
+}
+.question h3 {
+  margin: 0 0 10px;
+  color: #073763;
+}
+label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+button {
+  background-color: #0b5394;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 25px auto;
+}
+button:hover {
+  background-color: #073763;
+}
+.result {
+  text-align: center;
+  font-size: 20px;
+  color: #0b5394;
+  font-weight: bold;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>✨ Frosty Grammar Challenge — Agreement, Pronouns & Adjectives!</h1>
+  <form id="quizForm">
+
+    <div class="question">
+      <h3>Question 1: Choose the correct form of the verb for subject–verb agreement.<br>He _____ to school every day.</h3>
+      <label><input type="radio" name="q1" value="A"> go</label>
+      <label><input type="radio" name="q1" value="B"> goes</label>
+      <label><input type="radio" name="q1" value="C"> going</label>
+      <label><input type="radio" name="q1" value="D"> gone</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 2: Select the correct pronoun to complete the sentence.<br>Ali and _____ are going to the park.</h3>
+      <label><input type="radio" name="q2" value="A"> me</label>
+      <label><input type="radio" name="q2" value="B"> I</label>
+      <label><input type="radio" name="q2" value="C"> mine</label>
+      <label><input type="radio" name="q2" value="D"> myself</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 3: Choose the adjective that best fits the sentence.<br>The cake smells _____.</h3>
+      <label><input type="radio" name="q3" value="A"> delicious</label>
+      <label><input type="radio" name="q3" value="B"> deliciously</label>
+      <label><input type="radio" name="q3" value="C"> delight</label>
+      <label><input type="radio" name="q3" value="D"> delightfully</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 4: Choose the correct pronoun.<br>Everyone should bring _____ own lunch.</h3>
+      <label><input type="radio" name="q4" value="A"> his or her</label>
+      <label><input type="radio" name="q4" value="B"> their</label>
+      <label><input type="radio" name="q4" value="C"> our</label>
+      <label><input type="radio" name="q4" value="D"> theirs</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 5: Pick the correct verb form.<br>The dogs _____ barking loudly outside.</h3>
+      <label><input type="radio" name="q5" value="A"> was</label>
+      <label><input type="radio" name="q5" value="B"> is</label>
+      <label><input type="radio" name="q5" value="C"> were</label>
+      <label><input type="radio" name="q5" value="D"> be</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 6: Choose the sentence with correct subject–verb agreement.</h3>
+      <label><input type="radio" name="q6" value="A"> The students studies hard.</label>
+      <label><input type="radio" name="q6" value="B"> The students study hard.</label>
+      <label><input type="radio" name="q6" value="C"> The students studying hard.</label>
+      <label><input type="radio" name="q6" value="D"> The students is studying hard.</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 7: Select the correct demonstrative pronoun.<br>_____ is my favorite book on the shelf.</h3>
+      <label><input type="radio" name="q7" value="A"> These</label>
+      <label><input type="radio" name="q7" value="B"> Those</label>
+      <label><input type="radio" name="q7" value="C"> This</label>
+      <label><input type="radio" name="q7" value="D"> Them</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 8: Pick the correct form of adjective.<br>This road is _____ than the one we took yesterday.</h3>
+      <label><input type="radio" name="q8" value="A"> narrow</label>
+      <label><input type="radio" name="q8" value="B"> more narrow</label>
+      <label><input type="radio" name="q8" value="C"> narrower</label>
+      <label><input type="radio" name="q8" value="D"> most narrow</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 9: Choose the correct reflexive pronoun.<br>She made the dress all by _____.</h3>
+      <label><input type="radio" name="q9" value="A"> her</label>
+      <label><input type="radio" name="q9" value="B"> herself</label>
+      <label><input type="radio" name="q9" value="C"> she</label>
+      <label><input type="radio" name="q9" value="D"> hers</label>
+    </div>
+
+    <div class="question">
+      <h3>Question 10: Pick the correct sentence.</h3>
+      <label><input type="radio" name="q10" value="A"> The team are winning.</label>
+      <label><input type="radio" name="q10" value="B"> The team is winning.</label>
+      <label><input type="radio" name="q10" value="C"> The team be winning.</label>
+      <label><input type="radio" name="q10" value="D"> The team were winning.</label>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Submit Answers</button>
+  </form>
+  <div id="result" class="result"></div>
+</div>
+
+<script>
+function checkAnswers() {
+  const correctAnswers = {
+    q1: "B",
+    q2: "B",
+    q3: "A",
+    q4: "A",
+    q5: "C",
+    q6: "B",
+    q7: "C",
+    q8: "C",
+    q9: "B",
+    q10: "B"
+  };
+  let score = 0;
+  for (let q in correctAnswers) {
+    const answer = document.querySelector(`input[name="${q}"]:checked`);
+    if (answer && answer.value === correctAnswers[q]) {
+      score++;
+    }
+  }
+  document.getElementById("result").innerHTML = `🎯 You scored ${score} out of 10!`;
+}
+</script>
+</body>
+</html>
